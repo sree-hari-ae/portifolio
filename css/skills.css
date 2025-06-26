@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(191, 226, 226);
+}
+.skill-card{
+    color: rgb(226, 86, 43);
+}
+#skills{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.skill-card {
+    margin: 20px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+
+    color: black;               
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+.skill-card i { 
+    color: rgb(255, 13, 0);              
+    margin-right: 8px;          
+}
+
+
+.skills-grid{
+    display: flex;
+   justify-content: center;
+   padding: 30px;
+}
+.skill-card:hover {
+  transform: translateY(-5px);
+}
