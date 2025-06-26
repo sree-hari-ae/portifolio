@@ -1,0 +1,49 @@
+img{
+   border-radius: 50%;
+    display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+
+
+ 
+}
+.bar2{
+    padding: 20px;
+    display: flex;
+    justify-content:flex-end;
+    background-color: #e4e1e1;
+}
+.bar2 a{
+    margin-left: 35px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 0px; 
+  padding: 50px;
+ 
+  
+}
+
+.button {
+   padding: 0px;
+   margin: 50px;
+   gap: 0px;
+   border-radius: 20px;
+   width:300px;
+   height: 50px;
+   cursor: pointer;
+   background-color: black;
+   
+}
+.button a
+{
+   text-decoration:  none;
+   color:red;
+   font-weight: bold;
+   font-size:25px ;
+}
