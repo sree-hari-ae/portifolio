@@ -48,3 +48,17 @@ body{
 .skill-card:hover {
   transform: translateY(-5px);
 }
+header{
+    background-color: #ece9e6;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px
+}
+header a{
+    text-decoration: none;
+    color: black;
+   
+    
+   
+}
