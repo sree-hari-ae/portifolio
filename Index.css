@@ -1,47 +1,99 @@
-img{
-   border-radius: 50%;
-    display: block;
-  margin: 0 auto;
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('hy.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+.navbar {
+  background-color: #ece9e6;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.navbar a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a i {
+  margin-right: 8px;
+}
+
+.intro {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  color: chocolate;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
-
-
- 
-}
-.bar2{
-    padding: 20px;
-    display: flex;
-    justify-content:flex-end;
-    background-color: #e4e1e1;
-}
-.bar2 a{
-    margin-left: 35px;
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
+  object-fit: cover;
+  margin-top: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
 
-.btn {
+.bio {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+.buttons {
   display: flex;
   justify-content: center;
-  gap: 0px; 
-  padding: 50px;
- 
-  
+  gap: 30px;
+  margin: 30px 0;
 }
 
 .button {
-   padding: 0px;
-   margin: 50px;
-   gap: 0px;
-   border-radius: 20px;
-   width:300px;
-   height: 50px;
-   cursor: pointer;
-   
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  margin: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
-.button a
-{
-   text-decoration:  none;
-   color: black;
-   font-weight: bold;
+
+.button {
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 30px;
+  margin: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #9face6, #74ebd5);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+.buttons a{
+   text-decoration: none;
 }

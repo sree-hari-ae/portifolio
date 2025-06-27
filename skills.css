@@ -7,6 +7,7 @@ body{
 #skills{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    padding: 50px;
 }
 .skill-card {
     margin: 20px;
@@ -32,6 +33,18 @@ body{
    justify-content: center;
    padding: 30px;
 }
+.para{
+  margin-left: 200px;
+  margin: 0 auto;    
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 900px;
+}
+
+
+
 .skill-card:hover {
   transform: translateY(-5px);
 }
